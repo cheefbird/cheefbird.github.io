@@ -1,4 +1,4 @@
-baseurl = "http://www.example.com"
+baseurl = "http://cheefbird.github.io/"
 title = "cheefblog"
 theme = "hugo-coder"
 languagecode = "en"
@@ -16,9 +16,9 @@ shortname = "yourdiscussshortname"
 style = "github-dark"
 
 [params]
-author = "John Doe"
-info = "Full Stack DevOps and Magician"
-description = "John Doe's personal website"
+author = "Cheefbird"
+info = "TODO"
+description = "Cheefbird's personal website"
 keywords = "blog,developer,personal"
 avatarurl = "images/avatar.jpg"
 #gravatar = "john.doe@example.com"
@@ -56,3 +56,7 @@ url = "https://github.com/cheefbird/"
 name = "About"
 weight = 1
 url = "about/"
+
+[caches]
+[caches.images]
+dir = ':cacheDir/images'
